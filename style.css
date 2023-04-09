@@ -1,0 +1,212 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 110%; */
+
+}
+.card{
+    margin:0px;
+    background-image:linear-gradient(hsl(252, 100%, 67%) ,hsl(241, 81%, 54%));
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+    min-height:26.25rem ;
+    height: 53%;
+}
+.card h1{
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: rgba(248, 235, 235, 0.808);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 80px;
+
+}
+#outspan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    margin-top:60px ;
+    margin-bottom: 40px;
+
+    
+}
+#innspan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;    
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    box-shadow: 5px 10px 8px  #051dee;
+    background-image: linear-gradient(to top,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+#outspan p{
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.356);
+    font-weight: 100;
+    
+}
+.card h2{
+    text-align: center;
+    margin-top: 4rem;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+#card_p{
+    text-align: center;
+    font-size: 1.26rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-left: 25%;
+    margin-right: 24%;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.377);
+
+}
+.info #summary{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.progressbar{
+    margin-top:10px ;
+    background-color: rgba(255, 0, 0, 0.075);
+    box-shadow: 5px 10px 8px #f79e8370;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.progressbar svg{
+    margin-right: 8px;  
+}
+.progressbar #h1_1{
+    margin-left: 20px;
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+#progressbar_last{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+#progressbar_last_p1{
+    margin-right: 5px;
+    font-weight: 900;
+    /* font-size: 19px; */
+
+}
+#progressbar_last_p2{
+    color: rgb(151, 153, 152);
+    font-weight: 600;
+}
+.progressbar #h1_2{
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(255, 196, 0);
+    font-weight: 600;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.num2{
+    background-color: rgba(255, 217, 0, 0.226);
+    box-shadow: 5px 10px 8px #f5c35670;
+}
+#h1_3{
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #03ad6c;
+    font-size: 20px;
+}
+#h1_4{
+    margin-left:20px;
+    font-weight: 900;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #0603d3;
+    font-size: 20px;
+}
+#btn_div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+button{
+    border: none;
+    background-color: #0603d3;
+    width: 60%;
+    height: 40px;
+    border-radius: 30px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+button:hover{
+    background-color: transparent;
+    color:#0603d3 ;
+    cursor: pointer;
+    border: 2px solid #0603d3;
+}
+
+
+@media only screen and (min-width : 450px) {
+
+    .main{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        border-radius: 30px;
+        margin-top: 5%;
+        width: 40%;
+        height: auto;
+    }
+    #card_p{
+        margin-bottom: 20px;
+    }
+    .aside_div{
+        width: 500px;
+    }
+    
+}
