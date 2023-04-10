@@ -165,9 +165,11 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
+    
 
 }
 button{
+    display: inline;
     border: none;
     background-color: #0603d3;
     width: 60%;
@@ -176,7 +178,7 @@ button{
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 1rem;
     color: white;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 1px;
     transition: 1s;
 }
@@ -184,7 +186,24 @@ button:hover{
     background-color: transparent;
     color:#0603d3 ;
     cursor: pointer;
-    border: 2px solid #0603d3;
+    box-shadow: 2px 4px 8px rgb(0, 17, 255);
+}
+.num3{
+    background-color: rgba(70, 250, 109, 0.13);
+    box-shadow: 5px 10px 8px #56f5634d;
+}
+.num4{
+    background-color: rgba(70, 70, 255, 0.253);
+    box-shadow: 5px 10px 8px #4525fa5b;
+}
+
+svg{
+    transition: 1s;
+}
+svg:hover{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
 
