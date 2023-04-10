@@ -22,8 +22,7 @@ body{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     width: 100%;
-    min-height:26.25rem ;
-    height: 53%;
+    height: 500px;
 }
 .card h1{
     padding-top: 40px;
@@ -200,7 +199,7 @@ button:hover{
         border-radius: 30px;
         margin-top: 5%;
         width: 40%;
-        height: auto;
+        margin-top: 90px;
     }
     #card_p{
         margin-bottom: 20px;
